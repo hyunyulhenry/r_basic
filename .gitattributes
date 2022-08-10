@@ -1,0 +1,9 @@
+data/(2021년[[:space:]]16차[[:space:]]한국복지패널조사)[[:space:]]조사설계서-가구용(beta1).xlsx filter=lfs diff=lfs merge=lfs -text
+data/(2021년[[:space:]]16차[[:space:]]한국복지패널조사)[[:space:]]조사설계서-아동용(beta1).xlsx filter=lfs diff=lfs merge=lfs -text
+data/16차[[:space:]]머지데이터_변수명_20220404.xlsx filter=lfs diff=lfs merge=lfs -text
+data/Koweps_h16_2021_beta1.sav filter=lfs diff=lfs merge=lfs -text
+data/(2021년[[:space:]]16차[[:space:]]한국복지패널조사)[[:space:]]조사설계서-가구원용(beta1).xlsx filter=lfs diff=lfs merge=lfs -text
+data/16차[[:space:]]데이터파일설명(beta1).txt filter=lfs diff=lfs merge=lfs -text
+data/koweps_c16_2021_beta1.sav filter=lfs diff=lfs merge=lfs -text
+data/Koweps_hpc16_2021_beta1.sav filter=lfs diff=lfs merge=lfs -text
+data/Koweps_p16_2021_beta1.sav filter=lfs diff=lfs merge=lfs -text
