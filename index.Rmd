@@ -981,14 +981,14 @@ x
 
 csv와 엑셀 샘플 파일의 주소는 다음과 같습니다.
 
-- https://github.com/hyunyulhenry/r_basic/blob/master/data/kospi.csv
-- https://github.com/hyunyulhenry/r_basic/blob/master/data/kospi.xlsx
+- https://github.com/hyunyulhenry/r_basic/blob/master/kospi.csv
+- https://github.com/hyunyulhenry/r_basic/blob/master/kospi.xlsx
 
 아래의 코드를 실행하면 해당 파일을 PC에 다운로드 받을 수 있습니다.
 
 ```{r eval = FALSE}
-download.file('https://raw.githubusercontent.com/hyunyulhenry/fin_ds/master/data/kospi.csv', 'kospi.csv')
-download.file('https://github.com/hyunyulhenry/fin_ds/raw/master/data/kospi.xlsx', 'kospi.xlsx', mode = 'wb')
+download.file('https://raw.githubusercontent.com/hyunyulhenry/r_basic/master/kospi.csv', 'kospi.csv')
+download.file('https://github.com/hyunyulhenry/r_basic/raw/master/kospi.xlsx', 'kospi.xlsx', mode = 'wb')
 ```
 
 ### 워킹 디렉터리
@@ -1025,7 +1025,7 @@ knitr::include_graphics('images/rbasic_setwd3.png')
 먼저 R의 기본함수인 `read.csv()` 함수를 이용하면 매우 손쉽게 csv 파일을 불러올 수 있습니다.
 
 ```{r}
-kospi = read.csv('kospi.csv')
+kospi = read.csv('kospi.csv', fileEncoding="UTF-8-BOM")
 head(kospi)
 ```
 
