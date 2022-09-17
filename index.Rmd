@@ -2001,7 +2001,6 @@ knitr::include_graphics('images/wave.png')
 먼저 데이터를 불러옵니다.
 
 ```{r eval = FALSE}
-library(foreign)
 library(dplyr)
 library(tidyr)
 library(magrittr)
@@ -2009,9 +2008,8 @@ library(ggplot2)
 library(readxl)
 library(haven)
 library(stringr)
-library(forcats)
 
-raw = read_spss('data/Koweps_hpc16_2021_beta1.sav')
+raw = read_spss('Koweps_hpc16_2021_beta1.sav')
 ```
 
 ```{r echo = FALSE}
